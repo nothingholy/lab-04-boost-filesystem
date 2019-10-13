@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab-04-boost-filesystem"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tools\;CMake Files\tools\gate\;CMake Files\tools\gate\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\.hunter\;CMake Files\..\..\..\..\.hunter\_Base\;CMake Files\..\..\..\..\.hunter\_Base\Download\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\configs\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\GTest\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\system\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\filesystem\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\regex\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\find\;CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\scripts\;CMake Files\..\..\..\..\.hunter\_Base\9a3594a\;CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\;CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\;CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\Install\;CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\Install\lib\;CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\Install\lib\cmake\;CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\Install\lib\cmake\GTest\;CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\Install\lib\cmake\Boost\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_3rdParty\;CMake Files\cmake-build-debug\_3rdParty\Hunter\;CMake Files\cmake-build-debug\_3rdParty\Hunter\toolchain\;CMake Files\cmake-build-debug\_3rdParty\Hunter\config-id\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab-04-boost-filesystem">
+				<Option output="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/liblab-04-boost-filesystemd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/include"/>
+					<Add directory="C:/.hunter/_Base/9a3594a/8fd1943/2c875e7/Install/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab-04-boost-filesystem"/>
+					<CompileFile command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab-04-boost-filesystem/fast">
+				<Option output="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/liblab-04-boost-filesystemd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/include"/>
+					<Add directory="C:/.hunter/_Base/9a3594a/8fd1943/2c875e7/Install/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab-04-boost-filesystem/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests">
+				<Option output="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/include"/>
+					<Add directory="C:/.hunter/_Base/9a3594a/8fd1943/2c875e7/Install/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests/fast">
+				<Option output="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/include"/>
+					<Add directory="C:/.hunter/_Base/9a3594a/8fd1943/2c875e7/Install/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests/fast"/>
+					<CompileFile command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/include/header.hpp">
+			<Option target="lab-04-boost-filesystem"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/sources/source.cpp">
+			<Option target="lab-04-boost-filesystem"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/tests/test.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/tools/gate/cmake/HunterGate.cmake">
+			<Option virtualFolder="CMake Files\tools\gate\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/Hunter">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_add_package.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_add_version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_apply_copy_rules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_apply_gate_settings.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_assert_empty_string.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_assert_not_empty_string.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_cache_run.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_cache_server_password.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_cacheable.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_calculate_config_sha1.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_calculate_self.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_calculate_toolchain_sha1.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_check_download_error_message.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_check_flush_needed.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_check_toolchain_definition.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_cmake_args.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_create_args_file.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_create_cache_file.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_create_cache_meta_directory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_create_dependency_entry.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_create_deps_info.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_default_version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_download.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_download_cache_meta_file.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_download_cache_raw_file.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_download_server_url.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_error_page.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_fatal_error.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_final_config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_finalize.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_find_licenses.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_find_stamps.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_flush_cache_variables.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_get_cacheable.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_get_cmake_args.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_get_configuration_types.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_get_git_executable.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_get_keep_package_sources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_get_package_deps.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_get_package_deps_recurse.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_get_package_sha1.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_get_package_url.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_get_passwords_path.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_get_project_files_to_load.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_http_password.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_init_not_found_counter.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_initialize.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_internal_error.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_jobs_number.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_load_from_cache.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_lock_directory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_make_directory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_pack_directory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_pack_git_self.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_pack_git_submodule.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_parse_cmake_args_for_keyword.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_patch_unrelocatable_text_files.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_pick_scheme.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_print_cmd.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_private_data.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_private_data_password.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_read_http_credentials.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_register_dependency.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_sanity_checks.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_save_to_cache.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_set_config_location.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_sleep_before_download.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_status_debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_status_print.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_step_into_unpacked_directory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_unpack_directory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_unsetvar.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_upload_cache.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_upload_password.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_upload_single_file.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_upload_to_custom_server.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_user_error.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/configs/default.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\configs\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/GTest/hunter.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\GTest\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/hunter.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/system/hunter.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\system\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/filesystem/hunter.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\filesystem\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/regex/hunter.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\regex\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/find/FindBoost.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\find\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/scripts/create-toolchain-info.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\scripts\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/9a3594a/8fd1943/2c875e7/config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/9a3594a/8fd1943/2c875e7/Install/lib/cmake/GTest/GTestConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\Install\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/9a3594a/8fd1943/2c875e7/Install/lib/cmake/GTest/GTestConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\Install\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/9a3594a/8fd1943/2c875e7/Install/lib/cmake/GTest/GTestTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\Install\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/9a3594a/8fd1943/2c875e7/Install/lib/cmake/GTest/GTestTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\Install\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/9a3594a/8fd1943/2c875e7/Install/lib/cmake/GTest/GTestTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\Install\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/9a3594a/8fd1943/2c875e7/Install/lib/cmake/Boost/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\Install\lib\cmake\Boost\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/../../../../.hunter/_Base/9a3594a/8fd1943/2c875e7/Install/lib/cmake/Boost/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\.hunter\_Base\9a3594a\8fd1943\2c875e7\Install\lib\cmake\Boost\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/_3rdParty/Hunter/toolchain/toolchain.info.NOLF">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_3rdParty\Hunter\toolchain\"/>
+		</Unit>
+		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/_3rdParty/Hunter/config-id/config.cmake.NOLF">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_3rdParty\Hunter\config-id\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

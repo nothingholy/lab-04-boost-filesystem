@@ -1,0 +1,18 @@
+"D:\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\panda\CLionProjects\lab-04-boost-filesystem
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: C:/.hunter
+-- [hunter] [ Hunter-ID: 9a3594a | Toolchain-ID: 8fd1943 | Config-ID: 2c875e7 ]
+-- [hunter] GTEST_ROOT: C:/.hunter/_Base/9a3594a/8fd1943/2c875e7/Install (ver.: 1.8.0-hunter-p11)
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/8fd1943/2c875e7/Install (ver.: 1.64.0)
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/8fd1943/2c875e7/Install (ver.: 1.64.0)
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/8fd1943/2c875e7/Install (ver.: 1.64.0)
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/8fd1943/2c875e7/Install (ver.: 1.64.0)
+-- Boost version: 1.64.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   regex
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug
