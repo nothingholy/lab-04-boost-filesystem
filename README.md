@@ -1,3 +1,5 @@
+![Some badge](https://img.shields.io/badge/Booty-Ass-yellow.svg) [![Build Status](https://travis-ci.org/BootyAss/lab-04-boost-filesystem.svg?branch=master)](https://travis-ci.org/BootyAss/lab-04-boost-filesystem) ![Discord](https://img.shields.io/discord/486961752823562240) [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com) ![GitHub repo size](https://img.shields.io/github/repo-size/bootyass/lab-04-boost-filesystem?style=for-the-badge)
+
 # Лабораторная работа №4
 
 Лабораторная работа посвящена изучению работы с файловой системой на языке **C++**. В стандарте **C++17** появилась библиотека для работы с [файловой системой](https://en.cppreference.com/w/cpp/filesystem). Но так как на данный момент еще не все компиляторы поддерживают новейший стандарт **C++** в этой лабораторный используется библиотека **boost::filesystem**, которая была взята за основу при разработке стандарта.
