@@ -145,8 +145,6 @@
 		</Unit>
 		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/sources/source.cpp">
 			<Option target="lab-04-boost-filesystem"/>
-		</Unit>
-		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/tests/test.cpp">
 			<Option target="tests"/>
 		</Unit>
 		<Unit filename="C:/Users/panda/CLionProjects/lab-04-boost-filesystem/CMakeLists.txt">

@@ -18,7 +18,6 @@ int main(int argc, char *argv[]) {
                 std::for_each(Brokers.begin(), Brokers.end(),
                               [](auto &i) {
                                   for (auto j : i.second)
-                                      //std::map<std::string, std::map<int, std::pair<int, int>>> Brokers; бн.акк.дата
                                       out << "broker: " << i.first << " account: " << j.first << " files: "
                                           << j.second.second << " lastdate: " << j.second.first << std::endl;
                               });

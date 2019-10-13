@@ -153,6 +153,7 @@ sources/source.obj: sources/source.cpp.obj
 # target to build an object file
 sources/source.cpp.obj:
 	$(MAKE) -f CMakeFiles\lab-04-boost-filesystem.dir\build.make CMakeFiles/lab-04-boost-filesystem.dir/sources/source.cpp.obj
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/sources/source.cpp.obj
 .PHONY : sources/source.cpp.obj
 
 sources/source.i: sources/source.cpp.i
@@ -162,6 +163,7 @@ sources/source.i: sources/source.cpp.i
 # target to preprocess a source file
 sources/source.cpp.i:
 	$(MAKE) -f CMakeFiles\lab-04-boost-filesystem.dir\build.make CMakeFiles/lab-04-boost-filesystem.dir/sources/source.cpp.i
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/sources/source.cpp.i
 .PHONY : sources/source.cpp.i
 
 sources/source.s: sources/source.cpp.s
@@ -171,34 +173,8 @@ sources/source.s: sources/source.cpp.s
 # target to generate assembly for a file
 sources/source.cpp.s:
 	$(MAKE) -f CMakeFiles\lab-04-boost-filesystem.dir\build.make CMakeFiles/lab-04-boost-filesystem.dir/sources/source.cpp.s
+	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/sources/source.cpp.s
 .PHONY : sources/source.cpp.s
-
-tests/test.obj: tests/test.cpp.obj
-
-.PHONY : tests/test.obj
-
-# target to build an object file
-tests/test.cpp.obj:
-	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/tests/test.cpp.obj
-.PHONY : tests/test.cpp.obj
-
-tests/test.i: tests/test.cpp.i
-
-.PHONY : tests/test.i
-
-# target to preprocess a source file
-tests/test.cpp.i:
-	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/tests/test.cpp.i
-.PHONY : tests/test.cpp.i
-
-tests/test.s: tests/test.cpp.s
-
-.PHONY : tests/test.s
-
-# target to generate assembly for a file
-tests/test.cpp.s:
-	$(MAKE) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/tests/test.cpp.s
-.PHONY : tests/test.cpp.s
 
 # Help Target
 help:
@@ -214,9 +190,6 @@ help:
 	@echo ... sources/source.obj
 	@echo ... sources/source.i
 	@echo ... sources/source.s
-	@echo ... tests/test.obj
-	@echo ... tests/test.i
-	@echo ... tests/test.s
 .PHONY : help
 
 

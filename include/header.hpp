@@ -13,7 +13,7 @@
 
 // Имя Брокера, Номер Счёта, Дата, Кол-во
 std::map<std::string, std::map<std::string, std::pair<int, int>>> Brokers;
-std::ofstream out("C:/Users/panda/CLionProjects/lab-04-boost-filesystem/results/result.txt");
+std::ofstream out("C:/Users/panda/CLionProjects/lab-04-boost-filesystem/results/results.txt");
 
 
 void filer(const bf::path &path) {
