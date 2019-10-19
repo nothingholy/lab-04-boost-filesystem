@@ -7,12 +7,13 @@
 #include <fstream>
 #include <map>
 #include <string>
+#include <exception>
 #include <boost/filesystem.hpp>
 
 #define bf boost::filesystem
 
 // Имя Брокера, Номер Счёта, Дата, Кол-во
-std::map<std::string, std::map<std::string, std::pair<int, int>>> Brokers;
+std::map<std::string, std::map<int, std::pair<int, int>>> Brokers;
 std::ofstream out("C:/Users/panda/CLionProjects/lab-04-boost-filesystem/results/results.txt");
 
 
@@ -44,8 +45,15 @@ void filer(const bf::path &path) {
         if (file_name.size() != 29)
             continue;
 
-        std::string account = file_name.substr(8, 8);
-        int date = stoi(file_name.substr(17, 8));
+        int account;
+        int date;
+        try {
+            account = stoi(file_name.substr(8, 8));
+            date = stoi(file_name.substr(17, 8));
+        }
+        catch (std::exception &e) {
+            continue;
+        }
         std::string broker_name = x.path().parent_path().filename().string();
 
         out << broker_name << " " << file_name << std::endl;

@@ -56,28 +56,28 @@ include CMakeFiles/tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tests.dir/flags.make
 
-CMakeFiles/tests.dir/sources/source.cpp.obj: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/sources/source.cpp.obj: CMakeFiles/tests.dir/includes_CXX.rsp
-CMakeFiles/tests.dir/sources/source.cpp.obj: ../sources/source.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\panda\CLionProjects\lab-04-boost-filesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tests.dir/sources/source.cpp.obj"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tests.dir\sources\source.cpp.obj -c C:\Users\panda\CLionProjects\lab-04-boost-filesystem\sources\source.cpp
+CMakeFiles/tests.dir/tests/test.cpp.obj: CMakeFiles/tests.dir/flags.make
+CMakeFiles/tests.dir/tests/test.cpp.obj: CMakeFiles/tests.dir/includes_CXX.rsp
+CMakeFiles/tests.dir/tests/test.cpp.obj: ../tests/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\panda\CLionProjects\lab-04-boost-filesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tests.dir/tests/test.cpp.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tests.dir\tests\test.cpp.obj -c C:\Users\panda\CLionProjects\lab-04-boost-filesystem\tests\test.cpp
 
-CMakeFiles/tests.dir/sources/source.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/sources/source.cpp.i"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\panda\CLionProjects\lab-04-boost-filesystem\sources\source.cpp > CMakeFiles\tests.dir\sources\source.cpp.i
+CMakeFiles/tests.dir/tests/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/test.cpp.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\panda\CLionProjects\lab-04-boost-filesystem\tests\test.cpp > CMakeFiles\tests.dir\tests\test.cpp.i
 
-CMakeFiles/tests.dir/sources/source.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/sources/source.cpp.s"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\panda\CLionProjects\lab-04-boost-filesystem\sources\source.cpp -o CMakeFiles\tests.dir\sources\source.cpp.s
+CMakeFiles/tests.dir/tests/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/test.cpp.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\panda\CLionProjects\lab-04-boost-filesystem\tests\test.cpp -o CMakeFiles\tests.dir\tests\test.cpp.s
 
 # Object files for target tests
 tests_OBJECTS = \
-"CMakeFiles/tests.dir/sources/source.cpp.obj"
+"CMakeFiles/tests.dir/tests/test.cpp.obj"
 
 # External object files for target tests
 tests_EXTERNAL_OBJECTS =
 
-tests.exe: CMakeFiles/tests.dir/sources/source.cpp.obj
+tests.exe: CMakeFiles/tests.dir/tests/test.cpp.obj
 tests.exe: CMakeFiles/tests.dir/build.make
 tests.exe: C:/.hunter/_Base/9a3594a/8fd1943/2c875e7/Install/lib/libgtest_maind.a
 tests.exe: liblab-04-boost-filesystemd.a

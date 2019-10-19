@@ -15,6 +15,8 @@ map
 -
 string
 -
+exception
+-
 boost/filesystem.hpp
 -
 
