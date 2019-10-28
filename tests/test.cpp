@@ -7,9 +7,5 @@ TEST(Example, EmptyTest) {
     std::string ftp_path = "../misc/ftp/";
     fillup(ftp_path);
     EXPECT_EQ(brokers.size(), 3);
-
-    brokers.clear();
-    ftp_path = "../result/";
-    fillup(ftp_path);
-    EXPECT_EQ(brokers.size(), 0);
+    
 }
