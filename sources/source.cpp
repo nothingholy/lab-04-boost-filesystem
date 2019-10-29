@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
             if (!Brokers.empty()) {
                 std::for_each(Brokers.begin(), Brokers.end(),
                               [](auto &i) {
-                                  for (auto j : i.second)
+                                  for (const auto &j : i.second)
                                       out << "broker: " << i.first << " account: " << j.first << " files: "
                                           << j.second.second << " lastdate: " << j.second.first << std::endl;
                               });
