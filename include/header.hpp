@@ -11,18 +11,17 @@
 #include <boost/filesystem.hpp>
 using namespace std;
 
-#define bf boost::filesystem
+using namespace boost::filesystem;
 
 map<string,map<int,pair<int,int>>> brokers;
-ofstream out("../result/res.txt");
+std::ofstream out("../result/res.txt");
 
-void fillup(const bf::path &path){
-    for(bf::directory_entry &x : bf::directory_iterator(path)){
-        //Директория или символьная ссылка
-        if(bf::is_directory(x) || bf::is_symlink(x))
+void fillup(const path &path){
+    for(directory_entry &x : directory_iterator(path)){
+        if( is_directory(x) ||  is_symlink(x))
             fillup(x.path());
 
-        if(!bf::is_regular_file(x))
+        if(! is_regular_file(x))
             continue;
 
         string file_name=x.path().filename().string();
@@ -32,6 +31,9 @@ void fillup(const bf::path &path){
             continue;
 
         if(extension!=".txt")
+            continue;
+
+        if(file_name.length() != 29)
             continue;
 
         int account;
